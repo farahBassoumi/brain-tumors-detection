@@ -1,0 +1,173 @@
+# Core async/networking
+anyio>=4.2.0
+httpcore>=1.0.0
+httpx>=0.27.0
+h11>=0.14.0
+sniffio>=1.3.0
+
+# Authentication & security
+argon2-cffi>=23.1.0
+argon2-cffi-bindings>=21.2.0
+certifi>=2024.8.30
+cffi>=1.17.0
+pycparser>=2.22
+
+# Date/time handling
+arrow>=1.3.0
+python-dateutil>=2.9.0
+pytz>=2024.1
+tzdata>=2024.1
+
+# Data structures & utilities
+attrs>=23.2.0
+six>=1.16.0
+charset-normalizer>=3.3.2
+idna>=3.7
+urllib3>=2.2.0
+requests>=2.32.0
+fqdn>=1.5.1
+uri-template>=1.3.0
+
+# Text processing & markup
+Babel>=2.14.0
+beautifulsoup4>=4.12.3
+bleach>=6.1.0
+MarkupSafe>=2.1.0
+Jinja2>=3.1.0
+mistune>=3.0.0
+soupsieve>=2.5
+webcolors>=24.8.0
+webencodings>=0.5.1
+
+# Development & debugging
+colorama>=0.4.6
+decorator>=5.1.1
+executing>=2.0.1
+pure-eval>=0.2.2
+stack-data>=0.6.3
+asttokens>=2.4.1
+
+# File handling
+defusedxml>=0.7.1
+filelock>=3.15.0
+fsspec>=2024.6.0
+Send2Trash>=1.8.0
+
+# JSON/YAML/Config
+fastjsonschema>=2.20.0
+json5>=0.9.0
+jsonpointer>=3.0.0
+jsonschema>=4.23.0
+jsonschema-specifications>=2023.12.0
+PyYAML>=6.0.0
+ruamel.yaml>=0.18.6
+ruamel.yaml.clib>=0.2.8
+rpds-py>=0.20.0
+referencing>=0.35.0
+
+# Validation
+rfc3339-validator>=0.1.4
+rfc3986-validator>=0.1.1
+isoduration>=20.11.0
+
+# IPython/Jupyter ecosystem
+ipython>=8.20.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+traitlets>=5.14.0
+comm>=0.2.0
+jupyter>=1.0.0
+jupyter-console>=6.6.0
+jupyter-events>=0.10.0
+jupyter-lsp>=2.2.0
+jupyter_client>=8.6.0
+jupyter_core>=5.7.0
+jupyter_server>=2.14.0
+jupyter_server_terminals>=0.5.0
+jupyterlab>=4.2.0
+jupyterlab_pygments>=0.3.0
+jupyterlab_server>=2.27.0
+jupyterlab_widgets>=3.0.0
+notebook>=7.2.0
+notebook_shim>=0.2.0
+widgetsnbextension>=4.0.0
+
+# Notebook/document processing
+nbclient>=0.10.0
+nbconvert>=7.16.0
+nbformat>=5.10.0
+pandocfilters>=1.5.1
+
+# Terminal/console
+wcwidth>=0.2.13
+prompt-toolkit>=3.0.0
+qtconsole>=5.5.0
+QtPy>=2.4.0
+terminado>=0.18.0
+
+# Async utilities
+async-lru>=2.0.4
+nest-asyncio>=1.6.0
+
+# System utilities
+platformdirs>=4.2.0
+psutil>=6.0.0
+packaging>=24.1
+
+# Monitoring/metrics
+prometheus-client>=0.20.0
+tornado>=6.4.0
+pyzmq>=26.0.0
+websocket-client>=1.8.0
+
+# Windows-specific
+pywin32>=306; sys_platform == "win32"
+pywinpty>=2.0.13; sys_platform == "win32"
+
+# Scientific computing - Core packages
+numpy>=1.26.0,<2.0.0
+scipy>=1.12.0
+pandas>=2.2.3
+
+# Plotting & visualization 
+matplotlib>=3.8.0
+seaborn>=0.13.0
+contourpy>=1.2.0
+cycler>=0.12.0
+fonttools>=4.53.0
+kiwisolver>=1.4.0
+matplotlib-inline>=0.1.0
+pillow>=10.0.0
+
+# Machine learning
+scikit-learn>=1.5.0
+joblib>=1.4.0
+threadpoolctl>=3.5.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer vision
+opencv-python>=4.10.0
+
+# Math & symbolic computation
+mpmath>=1.3.0
+sympy>=1.13.0
+networkx>=3.0
+
+# Development tools
+jedi>=0.19.0
+parso>=0.8.0
+debugpy>=1.8.0
+Pygments>=2.18.0
+pyparsing>=3.1.0
+tqdm>=4.66.0
+overrides>=7.7.0
+
+# CSS/HTML processing
+tinycss2>=1.3.0
+
+# Type hints
+typing_extensions>=4.12.0
+types-python-dateutil>=2.9.0
